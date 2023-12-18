@@ -23,9 +23,9 @@ export default function DarkMode(){
                 onClick={changeDarkMode}
               >
                 {isDarkMode ? (
-                    <MdOutlineDarkMode />
+                     <MdOutlineLightMode />
                 ) : (
-                    <MdOutlineLightMode />
+                    <MdOutlineDarkMode />
                 )}
               </button>
         </div>
