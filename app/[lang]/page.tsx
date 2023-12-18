@@ -10,6 +10,7 @@ import tute2 from "../../public/tutedev2.png";
 import proyecto1 from "../../public/images/screenCuantosDolares.png";
 
 
+
 export default async function Home({
   params: { lang }
 }: {
