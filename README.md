@@ -10,7 +10,7 @@ yarn dev
 pnpm dev
 ```
 
-Segundo:
+Segundo(shadcn):
 
 Y en la config:
 
