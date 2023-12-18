@@ -1,40 +1,17 @@
 {
   "navigation": {
-    "home": "Home",
-    "about": "About"
+    "nosotros": "Discover Us",
+    "que_hacemos": "What do we do",
+    "contacto": "Contact"
   },
   "page": {
     "home": {
-      "title": "Welcome to NextJs i18n",
-      "sysstudent": "Systems engineering student",
-      "description": "Blockchain Enthusiast and coding passionate, studying and learning every day what I love, read more about me below!",
-      "proyects": "Proyects",
-      "proyects_desc": "Personal projects in which I practice my skills to then apply them in the workplace.",
-      "dolar_calc": "Dolar Calculator",
-      "dolar_calc_desc": "If you live in Argentina, the exchange rate uncertainty makes knowing the value of the dollar a necessity. This simple page informs you of the current value of the types of dollars and calculates the amount of dollars that your pesos are equivalent to. ",
-      "about": "About me",
-      "about_desc1": "Advanced Systems Engineering student at UTN FRRO, I worked as a Community Builder in ",
-      "about_desc2": "(Aug/2022 - Jul/2023) specifically in the Latam community, I am currently working as a Developer in",
-      "about_desc3": "from July 2023.",
-      "workshop_desc": "In this section you can see the different talks/presentations which I had the opportunity to lead",
-      "modal_bitconf_2": "here",
-      "modal_globant_1": "Workshop on how to configure an Ethereum Node using the DAppNode software from how to boot the ISO on a pendrive to the local connection",
-      "modal_globant_2": "Globant Offices, Tandil (Province of Buenos Aires).",
-      "modal_aurora_sc": "Workshop how to deploy smart contracts within Aurora",
-      "modal_aurora_near": "Explanation of how Aurora works within the NEAR Protocol ecosystem",
-      "modal_rosario_1": "Talk with the RosChain community 'Bases of Solidity', where we saw an introduction to the syntax of the language and then deploy a smart contract on testnet!",
-      "modal_rosario_2": "But what is Roschain? It is a community in Spanish that is dedicated to the education and adoption of users in the Web3 and crypto ecosystem, under the values of decentralization.",
-      "modal_rosario_3": "To learn more about RosChain and how it is organized, click on the image.",
-      "button_close": "Close",
-      "articulos": "Articles",
-      "art_desc": " All the technical and non-technical articles in which I had the pleasure of being part/author of them.",
-      "modal_bitconf_1": "Workshop on how to configure an Ethereum Node using the DAppNode software, from how to boot the ISO on a pendrive to the connection via VPN, you can see it by clicking on the photo or",
-      "articulo_title_ethereum": "Ethereum Node",
-      "articulo_desc_ethereum": "Guide on how to configure an Ethereum node, from installation to synchronization using DappNode.",
-      "articulo_title_arbitrum": "Arbitrum Node",
-      "articulo_desc_arbitrum": "Guide on how to configure an Arbitrum Nitro node, using a VM and Docker with their configurations and how to interact with it.",
-      "articulo_title_op": "Optimism Node",
-      "articulo_desc_op": "Guide on how to configure an Optimism node using Linux and how to interact with it."
+      "nosotros": "Discover Us",
+      "que_hacemos": "What do we do",
+      "contacto": "Contact",
+      "comunidad_1":"Community dedicated to the study of scalability",
+      "comunidad_2":"solutions in Ethereum",
+      "info":"More information"
     },
     "about": {
       "title": "About Us",

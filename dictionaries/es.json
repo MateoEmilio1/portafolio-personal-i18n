@@ -1,47 +1,21 @@
 {
-    "navigation": {
-      "home": "Home",
-      "about": "Sobre mi"
+  "navigation": {
+    "nosotros": "Discover Us",
+    "que_hacemos": "Qué hacemos",
+    "contacto": "Contact"
+  },
+  "page": {
+    "home": {
+      "nosotros": "Nosotros",
+      "que_hacemos": "Qué hacemos",
+      "contacto": "Contacto",
+      "comunidad_1":"Comunidad dedicada al estudio de soluciones",
+      "comunidad_2":"de escalabilidad en Ethereum",
+      "info":"Más informacion"
     },
-    "page": {
-      "home": {
-        "title": "Bienvenido a NextJs i18n",
-        "sysstudent" : "Estudiante de Ing. en Sistemas",
-        "description" : "Entusiasta sobre la tecnologia Blockchain, explorando paso a paso el mundo del desarrollo, lee más sobre mí a continuación!",
-        "proyects": "Proyectos",
-        "proyects_desc" : "Proyectos personales en los cuales practico mis habilidades para luego aplicarlos en el ambito laboral.",
-        "dolar_calc" : "Calculadora de Dolares",
-        "dolar_calc_desc" : "Si vivis en Argentina, la incertidumbre cambiaria hace que saber el valor del dolar sea una necesidad, esta simple pagina te informa el valor actual de los tipos de dolares y calcular la cantidad de dolar que equivalen tus pesos. ",
-        "about" :"Sobre mi",
-        "about_desc1" : "Estudiante de Ing. en Sistemas avanzado en UTN FRRO, trabajé como Community Builder en ",
-        "about_desc2" : "(ago/2022 - jul/2023) especificamente en la comunidad de Latam, actualmente estoy trabajando como Desarrollador en",
-        "about_desc3" : "desde Julio 2023.",
-        "workshop_desc" : "En este apartado podrás ver las diferentes charlas, presentaciones y talleres (workshops) que tuve la oportunidad de liderar",
-        "modal_bitconf_1":"Workshop sobre como configurar un Nodo de Ethereum utilizando el software DAppNode desde como bootear el ISO en un pendrive hasta la conexión via VPN, podes verlo clickeando en la foto ó",
-        "modal_bitconf_2":"acá",
-        "modal_globant_1":"Workshop sobre como configurar un Nodo de Ethereum utilizando el software DAppNode desde como bootear el ISO en un pendrive hasta la conexión local",
-        "modal_globant_2":"Oficinas Globant, Tandil (Prov. Bs As).",
-        "modal_aurora_sc":"Workshop como deployar smart contracts dentro de Aurora",
-        "modal_aurora_near":"Explicacion de como funciona Aurora dentro del ecosistema de NEAR Protocol",
-        "modal_rosario_1":"Charla con la comunidad de RosChain 'Bases de Solidity', donde vimos una introduccion a la sintaxis del lenguaje para despues deployar un smart contract en testnet!.",
-        "modal_rosario_2":"Pero, ¿Que es Roschain? Es una comunidad en español que se dedica a la educación y adopción de usuarios en el ecosistema Web3 y cripto, bajo los valores de la descentralización.",
-        "modal_rosario_3":"Para obtener más información sobre RosChain y cómo está organizado, haga clic en la imagen.",
-        "button_close":"Cerrar",
-        "articulos" : "Articulos",
-        "art_desc" : " Todos los artículos técnicos en los cuales tuve el gusto de ser parte",
-        "articulo_title_ethereum": "Nodo Ethereum",
-        "articulo_desc_ethereum" :"Guia de como configurar un nodo de Ethereum, desde la instalación hasta la sincronización utilizando DappNode.",
-        "articulo_title_arbitrum" : "Nodo Arbitrum",
-        "articulo_desc_arbitrum" : "Guia de como configurar un nodo de Arbitrum Nitro, utilizando una VM y Docker con sus configuraciones y como interactuar él.",
-        "articulo_title_op":"Nodo Optimism",
-        "articulo_desc_op":"Guia de como configurar un nodo de Optimism utilizando Linux y como interactuar él."
-
-
-    },
-      "about": {
-        "title": "About Us",
-        "description": "This is the about page"
-      }
+    "about": {
+      "title": "About Us",
+      "description": "This is the about page"
     }
   }
-  
+}
