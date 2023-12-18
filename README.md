@@ -9,8 +9,11 @@ yarn dev
 # or
 pnpm dev
 ```
+Swiper : npm install swiper
 
-Segundo(shadcn):
+Vercel: npm i @vercel/analytics
+
+UI (shadcn):
 
 Y en la config:
 
