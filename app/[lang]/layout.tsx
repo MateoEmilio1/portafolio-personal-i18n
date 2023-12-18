@@ -6,7 +6,7 @@ import Header from './components/header'
 import { Inter } from 'next/font/google'
 import Modals from './components/modals'
 
-import { Analytics } from '@vercel/analytics/react';
+import { Analytics } from '@vercel/analytics/react'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -30,9 +30,11 @@ export default function RootLayout({
     <html lang={params.lang}>
       <body className={inter.className}>
         <Header lang={params.lang} />
-        <main>{children}</main>
-        <Modals lang={params.lang}/>
-        <Analytics />
+        <main>
+          {children}
+          <Analytics />
+        </main>
+        <Modals lang={params.lang} />
       </body>
     </html>
   )
