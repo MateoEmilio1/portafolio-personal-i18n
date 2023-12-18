@@ -5,6 +5,9 @@ import Header from './components/header'
 
 import { Inter } from 'next/font/google'
 import Modals from './components/modals'
+
+import { Analytics } from '@vercel/analytics/react';
+
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
@@ -29,6 +32,7 @@ export default function RootLayout({
         <Header lang={params.lang} />
         <main>{children}</main>
         <Modals lang={params.lang}/>
+        <Analytics />
       </body>
     </html>
   )
