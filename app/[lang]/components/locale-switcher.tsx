@@ -5,6 +5,18 @@ import { usePathname } from 'next/navigation'
 
 import { i18n } from '@/i18n.config'
 
+
+//Shadcn
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue
+} from './ui/select'
+import { HiLanguage } from "react-icons/hi2";
+
+
 export default function LocaleSwitcher() {
   const pathName = usePathname()
 
@@ -35,19 +47,42 @@ export default function LocaleSwitcher() {
   }
 
   return (
-    <ul className='flex gap-x-3'>
-      {i18n.locales.map(locale => {
-        return (
-          <li key={locale}>
-            <Link
-              href={redirectedPathName(locale)}
-              className='rounded-md border bg-black px-3 py-2 text-white'
-            >
-              {locale}
-            </Link>
-          </li>
-        )
-      })}
-    </ul>
+    <div>
+      <Select>
+        <SelectTrigger className='w-[60px]'>
+          <HiLanguage />
+        </SelectTrigger>
+        <SelectContent>
+          <ul className='flex flex-col'>
+            {i18n.locales.map(locale => {
+              let languageName;
+              switch (locale) {
+                case 'en':
+                  languageName = 'English';
+                  break;
+                case 'es':
+                  languageName = 'Español';
+                  break;
+                case 'de':
+                  languageName = 'Deutsch';
+                  break;
+                default:
+                  languageName = locale; // Default case to handle other locales
+              }
+              return (
+                <li key={locale} className=' pt-2 my-2 mb-8'>
+                  <Link
+                    href={redirectedPathName(locale)}
+                    className=' rounded-md border px-3 py-3 gap-3 text-black dark:text-white'
+                  >
+                      {languageName}
+                  </Link>
+                </li>
+              )
+            })}
+          </ul>
+        </SelectContent>
+      </Select>
+    </div>
   )
 }

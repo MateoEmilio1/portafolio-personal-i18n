@@ -16,7 +16,7 @@ import Image from "next/image";
 export default function CarruselWorkshops() {
 
   return (
-    <div id="Page" className="sm:items-center">
+    <div id="Page" className="sm:items-center max-w-[800px] ">
       <Swiper
         slidesPerView={"auto"}
         spaceBetween={0}
