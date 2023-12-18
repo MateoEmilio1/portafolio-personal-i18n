@@ -73,7 +73,7 @@ export default function LocaleSwitcher() {
                 <li key={locale} className=' pt-2 my-2 mb-8'>
                   <Link
                     href={redirectedPathName(locale)}
-                    className=' rounded-md border px-3 py-3 gap-3 text-black '
+                    className=' rounded-md border px-3 py-3 gap-3 text-black dark:text-white'
                   >
                       {languageName}
                   </Link>
