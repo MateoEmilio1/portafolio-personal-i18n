@@ -7,6 +7,7 @@ import { Inter } from 'next/font/google'
 import Modals from './components/modals'
 import Hero from './pages/hero/hero'
 import Nosotros from './pages/nosotros/page'
+import QueHacemos from './pages/quehacemos/page'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -33,7 +34,7 @@ export default function RootLayout({
         <main>
           <Hero lang={params.lang}/>
           <Nosotros lang={params.lang}/>
-          {/* <Nosotros lang={params.lang}/> */}
+          <QueHacemos lang={params.lang}/>
           {children}
         </main>
         {/* <Modals lang={params.lang} /> */}

@@ -50,7 +50,7 @@ export default async function Navigation({ lang }: { lang: Locale }) {
               </Link>
 
               <Link
-                href="#Separte"
+                href="#Contacto"
                 className=" p-2  text-lg  font-bold text-white border-[#222222] border-b-4 hover:border-b-4 hover:border-[#017AD4]"
               >
                 {page.home.contacto}
