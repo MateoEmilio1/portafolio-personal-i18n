@@ -35,6 +35,7 @@ export default function RootLayout({
           <Hero lang={params.lang}/>
           <Nosotros lang={params.lang}/>
           <QueHacemos lang={params.lang}/>
+          <Modals lang={params.lang}/>
           {children}
         </main>
         {/* <Modals lang={params.lang} /> */}

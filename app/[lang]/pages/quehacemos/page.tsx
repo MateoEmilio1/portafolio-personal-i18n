@@ -3,6 +3,7 @@ import logoL2 from '../../../../public/images/hero/logoL2.svg'
 import styles from './hero.module.css'
 import { Locale } from '@/i18n.config'
 import { getDictionary } from '@/lib/dictionary'
+import CarruselWorkshops from '../../components/carruselWorkshops'
 
 export default async function QueHacemos({ lang }: { lang: Locale }) {
   const { page } = await getDictionary(lang)
@@ -13,7 +14,7 @@ export default async function QueHacemos({ lang }: { lang: Locale }) {
       className=" flex  min-h-screen min-w-full items-center bg-[url('../../public/images/hero/background.png')] bg-cover  bg-center bg-no-repeat   "
     >
       <div className='flex min-h-screen min-w-full items-center bg-black bg-opacity-40 bg-cover bg-center bg-no-repeat'>
-        <div className='px-auto mx-[40px] mt-14   h-[700px]  min-w-[300px] w-full items-center rounded-lg border-[2px] bg-white bg-opacity-10  pt-[40px]   '>
+        <div className='px-auto mx-[40px] my-14  sm:h-[800px]  min-w-[300px] w-full items-center rounded-lg border-[2px] bg-white bg-opacity-10  pt-[40px]   '>
           <h1 className='px-auto font-inter mx-[24px] pb-10 text-left text-4xl font-bold leading-[58px] tracking-[-0.05em] text-white md:text-5xl lg:text-[48px] xl:text-[48px]'>
             {page.home.que_hacemos_l2}
           </h1>
@@ -23,8 +24,7 @@ export default async function QueHacemos({ lang }: { lang: Locale }) {
           </p>
           {/* Carrusel */}
           
-
-
+          <CarruselWorkshops />
 
         </div>
       </div>

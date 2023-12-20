@@ -19,7 +19,7 @@ export default async function Nosotros({ lang }: { lang: Locale }) {
       className=" flex  min-h-screen min-w-full items-center bg-[url('../../public/images/hero/background.png')] bg-cover  bg-center bg-no-repeat   "
     >
       <div className='flex min-h-screen min-w-full items-center bg-black bg-opacity-40 bg-cover bg-center bg-no-repeat'>
-        <div className='px-auto mx-[40px] my-6  h-[700px] min-w-[300px]  items-center rounded-lg border-[2px] bg-white bg-opacity-10 pt-6  sm:mt-14 sm:pt-[40px]   '>
+        <div className='px-auto mx-[40px] my-6  h-[1680px] sm:h-[1060px] md:h-[1000px]  min-w-[300px]  items-center rounded-lg border-[2px] bg-white bg-opacity-10 pt-6  sm:mt-14 sm:pt-[40px]   '>
           <h1 className='px-auto font-inter mx-[24px] text-left text-4xl font-bold leading-[58px] tracking-[-0.05em] text-white sm:pb-10 md:text-5xl lg:text-[48px] xl:text-[48px]'>
             {page.home.nosotros}
           </h1>
