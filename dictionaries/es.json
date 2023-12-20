@@ -15,10 +15,13 @@
       "nosotros_desc":"Layer 2 en Español es una organización autogestionada para la investigación, el estudio y la difusión de soluciones de escalabilidad en Ethereum. Creemos que el ecosistema Ethereum tiene el potencial de transformar el mundo",
       "vision":"Visión:",
       "vision_desc":"Ser referentes en educación y difusión de contenido técnico en español dentro del ecosistema Ethereum.",
+      "vision_desc_accordion":"Ser el recurso líder en español para información sobre soluciones de escalabilidad en Ethereum. Queremos ser el lugar al que los entusiastas de Ethereum en español vengan para aprender sobre las últimas investigaciones y desarrollos en el campo de la escalabilidad.",
       "mision":"Misión:",
       "mision_desc":"Dedicarnos a la investigación y difusión de las soluciones de escalabilidad en Ethereum, con un enfoque estríctamente técnico.",
+      "mision_desc_accordion":"Publicar artículos, tutoriales y guías sobre soluciones de escalabilidad en Ethereum. Organizar conferencias sobre el tema. Colaborar con otras organizaciones que trabajan con el mismo fin de promover o desarrollar la escalabilidad de Ethereum.",
       "que_hacemos_l2":"¿Qué hacemos en L2 en Español?",
       "que_hacemos_l2_desc":"Inspirados en la hoja de ruta de Ethereum, Layer 2 en Español, es un recurso valioso para cualquier persona o empresa interesada en aprender más sobre cómo Ethereum escala a través de sus “segundas capas”, desde su aplicación como tecnología hasta las más recientes innovaciones."
+    
 
     },
     "about": {
