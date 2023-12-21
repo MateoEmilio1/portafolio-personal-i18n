@@ -63,9 +63,6 @@ export default function LocaleSwitcher() {
                 case 'es':
                   languageName = 'Español';
                   break;
-                case 'de':
-                  languageName = 'Deutsch';
-                  break;
                 default:
                   languageName = locale; // Default case to handle other locales
               }

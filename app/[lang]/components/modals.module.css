@@ -8,3 +8,14 @@
     border-top-right-radius: calc(var(--radius) - 2px);
 
   }
+
+  .headerModal {
+    width: 100%;
+    height: 275px;
+    background-image: url("../../../public/images/quehacemos/modalbg.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    padding-top: 110px;
+    /*   border-radius: 18.3714px; */
+  }
