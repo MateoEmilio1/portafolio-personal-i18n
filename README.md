@@ -13,7 +13,7 @@ Swiper : npm install swiper
 
 Vercel: npm i @vercel/analytics
 
-UI (shadcn):
+UI (shadcn): npx shadcn-ui@latest init
 
 Y en la config:
 

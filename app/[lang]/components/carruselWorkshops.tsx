@@ -63,7 +63,7 @@ export default function CarruselWorkshops() {
                       onClick={workshop.muestra}
                     ></Image>
                   </div>
-                  <div className='rounded-b-md bg-bg-card px-4 pb-8'>
+                  <div className='rounded-b-md bg-bg-card px-4 pb-8 bg-[#1C1C1C]'>
                     <h1 className='font-inter py-1 text-2xl font-bold leading-[48px] tracking-tighter text-white'>
                       {workshop.titulo}
                     </h1>
@@ -126,8 +126,8 @@ export default function CarruselWorkshops() {
                           onClick={workshop.muestra}
                         ></Image>
                       </div>
-                      <div className='rounded-b-md bg-bg-card px-4 pb-8'>
-                        <h1 className='font-inter py-1 text-2xl font-bold leading-[48px] tracking-tighter text-white'>
+                      <div className='rounded-b-md bg-[#1C1C1C]  px-4 pb-8'>
+                        <h1 className='font-inter  py-1 text-2xl font-bold leading-[48px] tracking-tighter text-white'>
                           {workshop.titulo}
                         </h1>
                         <p className='font-inter text-base  font-normal italic leading-6 tracking-tight text-white'>
