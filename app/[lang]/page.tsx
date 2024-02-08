@@ -2,6 +2,7 @@ import { Locale } from '@/i18n.config'
 import { getDictionary } from '@/lib/dictionary'
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import CarruselWorkshops from "./components/carruselWorkshops";
+import TextGenerateEffect from './components/textGenerateEffect';
 
 // Imagenes
 import Image from "next/image";
@@ -27,10 +28,11 @@ export default async function Home({
       <div className='p-10 text-center'>
         <h2 className='py-2 text-5xl font-bold text-teal-500'>Mateo Emilio</h2>
         <h3 className='py-2 text-2xl font-semibold dark:text-white'>
-          {page.home.sysstudent}
+        <TextGenerateEffect words={page.home.sysstudent} />
         </h3>
+        
         <h3 className='py-2 text-xl font-semibold dark:text-white'>
-          Frontend Developer
+        <TextGenerateEffect words="Frontend Developer" />
         </h3>
         <p className='text-md mx-auto max-w-xl py-5 leading-8 text-gray-800 dark:text-white md:text-xl'>
           {page.home.description}
