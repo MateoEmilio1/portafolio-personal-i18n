@@ -5,7 +5,7 @@ import React from "react";
 import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
 
 
-export default function ThreeDCard({ titulo, desc, imageUrl}: { titulo: string; desc: string; imageUrl: string}) {
+export default function ThreeDCard({ titulo, desc, imageUrl, link}: { titulo: string; desc: string; imageUrl: string; link:string}) {
     
 
   return (
@@ -26,6 +26,7 @@ export default function ThreeDCard({ titulo, desc, imageUrl}: { titulo: string; 
           {desc}
         </CardItem>
         <CardItem translateZ="100" className="w-full mt-4">
+        <a href={link} rel="noopener noreferrer" target="_blank"> 
           <Image
             src={imageUrl}
             height="1000"
@@ -33,6 +34,7 @@ export default function ThreeDCard({ titulo, desc, imageUrl}: { titulo: string; 
             className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
             alt="thumbnail"
           />
+          </a>
         </CardItem>
       </CardBody>
     </CardContainer>

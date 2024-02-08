@@ -17,7 +17,7 @@ return(
 <div>
 
     {/* Calculadora Dolares */}
-    <Card  titulo={page.home.dolar_calc} desc={page.home.dolar_calc_desc} imageUrl="https://i.imgur.com/luwHTEH.jpeg"/>
+    <Card  titulo={page.home.dolar_calc} desc={page.home.dolar_calc_desc} imageUrl="https://i.imgur.com/luwHTEH.jpeg" link="https://www.cuantosdolarestengo.com.ar/"/>
 
 
 
