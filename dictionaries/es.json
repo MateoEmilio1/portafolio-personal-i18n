@@ -13,7 +13,7 @@
         "dolar_calc" : "Calculadora de Dolares",
         "dolar_calc_desc" : "Si vivis en Argentina, la incertidumbre cambiaria hace que saber el valor del dolar sea una necesidad, esta simple pagina te informa el valor actual de los tipos de dolares y calcular la cantidad de dolar que equivalen tus pesos. ",
         "title_etherscan": "Explorador de transacciones",
-        "desc_etherscan": "Este buscador permite explorar, analizar y obtener información detallada sobre transacciones",
+        "desc_etherscan": "Este buscador permite explorar, analizar y obtener información detallada sobre transacciones en la red de Ethereum. Podes probar con el address de Vitalik Buterin: 0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
         "about" :"Sobre mi",
         "about_desc1" : "Estudiante de Ing. en Sistemas avanzado en UTN FRRO, trabajé como Community Builder en ",
         "about_desc2" : "(ago/2022 - jul/2023) especificamente en la comunidad de Latam, actualmente estoy trabajando como Desarrollador en",
