@@ -3,6 +3,6 @@ const nextConfig = {}
 
 module.exports = {
     images: {
-      domains: ['images.mirror-media.xyz'],
+      domains: ['images.mirror-media.xyz','i.imgur.com'],
     },
   };
