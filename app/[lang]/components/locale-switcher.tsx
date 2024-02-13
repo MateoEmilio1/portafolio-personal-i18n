@@ -53,7 +53,7 @@ export default function LocaleSwitcher() {
           <HiLanguage />
         </SelectTrigger>
         <SelectContent>
-          <ul className='flex flex-col'>
+          <ul className='font-mono leading-normal tracking-wide flex flex-col'>
             {i18n.locales.map(locale => {
               let languageName;
               switch (locale) {

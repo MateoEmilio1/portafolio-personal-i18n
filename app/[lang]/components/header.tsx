@@ -24,7 +24,7 @@ export default async function Header({ lang }: { lang: Locale }) {
         </ul> */}
 
         <a
-          className='ml-2 rounded-md bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 text-white'
+          className='font-mono leading-normal tracking-wide ml-2 rounded-md bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 text-white'
           href='https://drive.google.com/drive/folders/1mVeYA3crYMvmJnp3LlYqR3O9F-67vzk_?usp=drive_link'
           rel='noopener noreferrer'
           target='_blank'

@@ -26,7 +26,7 @@ export default async function Home({
       {/* Seccion principal */}
       <div className="min-h-screen">
       <div className='p-10 text-center'>
-        <h2 className='py-2 text-5xl font-bold text-teal-500'>Mateo Emilio</h2>
+        <h2 className='font-mono leading-normal tracking-wide py-2 text-5xl font-bold text-teal-500'>Mateo Emilio</h2>
         <h3 className='py-2 text-2xl font-semibold dark:text-white'>
         <TextGenerateEffect words={page.home.sysstudent} />
         </h3>
@@ -34,7 +34,7 @@ export default async function Home({
         <h3 className='py-2 text-xl font-semibold dark:text-white'>
         <TextGenerateEffect words="Frontend Developer" />
         </h3>
-        <p className='text-md mx-auto max-w-xl py-5 leading-8 text-gray-800 dark:text-white md:text-xl'>
+        <p className='font-mono text-lg leading-normal tracking-wide text-md mx-auto max-w-xl py-5 text-gray-800 dark:text-white md:text-xl'>
           {page.home.description}
         </p>
       </div>
@@ -67,8 +67,8 @@ export default async function Home({
         {/* PARTE DERECHA */}
 
         <div className=" text-black dark:text-white  ">
-          <h2 className="text-6xl font-bold pb-10">{page.home.proyects}</h2>
-          <p className="text-2xl pb-14 leading-8">
+          <h2 className="font-mono leading-normal tracking-wide text-6xl font-bold pb-10">{page.home.proyects}</h2>
+          <p className="font-mono leading-normal tracking-wide text-2xl pb-14">
             {page.home.proyects_desc}
           </p>
           {/* PROYECTOS */}
@@ -87,8 +87,8 @@ export default async function Home({
 
       <section className="grid gap-8 min-h-screen md:grid-cols-2 text-center md:text-left">
         <div className="py-20 text-black dark:text-white">
-          <h2 className="text-5xl font-bold">{page.home.about}</h2>
-          <p className="text-xl py-10 leading-8 ">
+          <h2 className="font-mono leading-normal tracking-wide text-5xl font-bold">{page.home.about}</h2>
+          <p className="font-mono leading-normal tracking-wide text-xl py-10">
             {page.home.about_desc1}{" "}
             <a
               href="https://twitter.com/auroraisnear"
@@ -139,8 +139,8 @@ export default async function Home({
         </div>
 
         <div className="py-1s text-black dark:text-white">
-          <h2 className="text-4xl font-bold">Workshops</h2>
-          <p className="text-xl py-10 leading-8">
+          <h2 className="font-mono leading-normal tracking-wide text-4xl font-bold">Workshops</h2>
+          <p className="font-mono leading-normal tracking-wide text-xl py-10">
             {page.home.workshop_desc}
           </p>
         </div>
@@ -150,8 +150,8 @@ export default async function Home({
 
       <div className="min-h-screen md:grid-cols-2 text-center md:text-left">
         <div className="pt-20 pb-4 text-black dark:text-white">
-          <h2 className="text-5xl font-bold e">{page.home.articulos}</h2>
-          <p className="text-xl py-10 leading-8 ">
+          <h2 className="font-mono leading-normal tracking-wide text-5xl font-bold e">{page.home.articulos}</h2>
+          <p className="font-mono leading-normal tracking-wide text-xl py-10">
             {page.home.art_desc}
           </p>
         </div>
@@ -167,10 +167,10 @@ export default async function Home({
                   className="w-full" 
                   src="https://images.mirror-media.xyz/publication-images/2SnICBC1PfpM4qUr_-pmU.png?height=960&width=1920"></Image>
                 <div className="px-6 py-4 text-left">
-                  <h1 className="font-bold dark:text-white">
+                  <h1 className="font-mono leading-normal tracking-wide font-bold dark:text-white">
                     {page.home.articulo_title_ethereum}
                   </h1>
-                  <p className="text-gray-700 text-base dark:text-gray-300">
+                  <p className="font-mono leading-normal tracking-wide text-gray-700 text-base dark:text-gray-300">
                     {page.home.articulo_desc_ethereum}
                   </p>
                 </div>
@@ -187,10 +187,10 @@ export default async function Home({
                   className="w-full" 
                   src="https://images.mirror-media.xyz/publication-images/lQLMnk4uGVTgWY-CPKEUd.jpg?height=640&width=1280"></Image>
                 <div className="px-6 py-4 text-left">
-                  <h1 className="font-bold dark:text-white">
+                  <h1 className="font-mono leading-normal tracking-wide font-bold dark:text-white">
                     {page.home.articulo_title_arbitrum}
                   </h1>
-                  <p className="text-gray-700 text-base dark:text-gray-300">
+                  <p className="font-mono leading-normal tracking-wide text-gray-700 text-base dark:text-gray-300">
                     {page.home.articulo_desc_ethereum}
                   </p>
                 </div>
@@ -206,11 +206,11 @@ export default async function Home({
                   alt={`Article Image`} 
                   className="w-full" 
                   src="https://images.mirror-media.xyz/publication-images/oCx996LCPvCjkOyRc_pC1.jpeg?height=640&width=1280"></Image>
-                <div className="px-6 py-4 text-left">
+                <div className="font-mono leading-normal tracking-wide px-6 py-4 text-left">
                   <h1 className="font-bold dark:text-white">
                     {page.home.articulo_title_op}
                   </h1>
-                  <p className="text-gray-700 text-base dark:text-gray-300">
+                  <p className="font-mono leading-normal tracking-wide text-gray-700 text-base dark:text-gray-300">
                     {page.home.articulo_desc_op}
                   </p>
                 </div>
