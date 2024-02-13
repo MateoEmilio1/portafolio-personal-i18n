@@ -26,7 +26,7 @@ export default async function Modals({ lang }: { lang: Locale }) {
           className='modal-box mx-auto my-4 flex max-w-4xl flex-col items-center text-center'
         >
           <div className='px-4 py-4 md:px-8'>
-            <p className='mx-auto text-lg md:max-w-4xl'>
+            <p className='font-mono leading-normal tracking-wide mx-auto text-lg md:max-w-4xl'>
               {page.home.modal_rosario_1} <br />
               <br /> {page.home.modal_rosario_2} <br />
               <br /> {page.home.modal_rosario_3}
@@ -46,7 +46,7 @@ export default async function Modals({ lang }: { lang: Locale }) {
             </div>
           </div>
           <div className='my-4 flex justify-center'>
-            <button className='rounded-md bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 text-white'>
+            <button className='font-mono leading-normal tracking-wide rounded-md bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 text-white'>
               {page.home.button_close}
             </button>
           </div>
@@ -63,7 +63,7 @@ export default async function Modals({ lang }: { lang: Locale }) {
           className='modal-box mx-auto my-4 flex max-w-5xl flex-col items-center text-center'
         >
           <div className='px-4 py-4 md:px-8'>
-            <p className='mx-auto text-lg md:max-w-4xl lg:px-0'>
+            <p className='font-mono leading-normal tracking-wide mx-auto text-lg md:max-w-4xl lg:px-0'>
               {page.home.modal_aurora_near}
               <br />
               <br /> Lima, Perú
@@ -83,7 +83,7 @@ export default async function Modals({ lang }: { lang: Locale }) {
             </div>
           </div>
           <div className='my-4 flex justify-center'>
-            <button className='rounded-md bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 text-white'>
+            <button className='font-mono leading-normal tracking-wide rounded-md bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 text-white'>
               {page.home.button_close}
             </button>
           </div>
@@ -100,7 +100,7 @@ export default async function Modals({ lang }: { lang: Locale }) {
           className='modal-box mx-auto my-4 flex max-w-5xl flex-col items-center text-center'
         >
           <div className='px-4 py-4 md:px-8'>
-            <p className='mx-auto text-lg md:max-w-4xl lg:px-0'>
+            <p className='font-mono leading-normal tracking-wide mx-auto text-lg md:max-w-4xl lg:px-0'>
               {page.home.modal_aurora_sc}
               <br />
               <br /> Lima, Perú
@@ -120,7 +120,7 @@ export default async function Modals({ lang }: { lang: Locale }) {
             </div>
           </div>
           <div className='my-4 flex justify-center'>
-            <button className='rounded-md bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 text-white'>
+            <button className='font-mono leading-normal tracking-wide rounded-md bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 text-white'>
               {page.home.button_close}
             </button>
           </div>
@@ -137,7 +137,7 @@ export default async function Modals({ lang }: { lang: Locale }) {
           className='modal-box mx-auto my-4 flex max-w-5xl flex-col items-center text-center'
         >
           <div className='px-4 py-4 md:px-8'>
-            <p className='mx-auto text-lg md:max-w-4xl'>
+            <p className='font-mono leading-normal tracking-wide mx-auto text-lg md:max-w-4xl'>
               {page.home.modal_globant_1} <br />
               <br />
               {page.home.modal_globant_2}
@@ -157,7 +157,7 @@ export default async function Modals({ lang }: { lang: Locale }) {
             </div>
           </div>
           <div className='my-4 flex justify-center'>
-            <button className='rounded-md bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 text-white'>
+            <button className='font-mono leading-normal tracking-wide rounded-md bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 text-white'>
               {page.home.button_close}
             </button>
           </div>
@@ -174,7 +174,7 @@ export default async function Modals({ lang }: { lang: Locale }) {
           className='modal-box mx-auto my-4 flex max-w-5xl flex-col items-center text-center'
         >
           <div className='px-4 py-4 md:px-8'>
-            <p className='mx-auto text-lg md:max-w-4xl'>
+            <p className='font-mono leading-normal tracking-wide mx-auto text-lg md:max-w-4xl'>
               {page.home.modal_bitconf_1}{' '}
               <a
                 href='https://www.youtube.com/watch?v=LOELy9Um5ek&t=628s'
@@ -202,7 +202,7 @@ export default async function Modals({ lang }: { lang: Locale }) {
             </div>
           </div>
           <div className='my-4 flex justify-center'>
-            <button className='rounded-md bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 text-white'>
+            <button className='font-mono leading-normal tracking-wide rounded-md bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 text-white'>
               {page.home.button_close}
             </button>
           </div>
