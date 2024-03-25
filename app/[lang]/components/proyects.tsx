@@ -19,7 +19,7 @@ return(
     {/* Calculadora Dolares */}
     <Card  titulo={page.home.dolar_calc} desc={page.home.dolar_calc_desc} imageUrl="https://i.imgur.com/luwHTEH.jpeg" link="https://www.cuantosdolarestengo.com.ar/"/>
     {/* Blockchain explorer */}
-    <Card  titulo={page.home.title_etherscan} desc={page.home.desc_etherscan} imageUrl="https://i.imgur.com/tw5nCNi.jpeg" link="https://frontend-etherscaneitor.vercel.app/"/>
+    <Card  titulo={page.home.title_etherscan} desc={page.home.desc_etherscan} imageUrl="https://i.imgur.com/tw5nCNi.jpeg" link="https://frontend-etherscaneitor-production.up.railway.app/"/>
 
 
 </div>
