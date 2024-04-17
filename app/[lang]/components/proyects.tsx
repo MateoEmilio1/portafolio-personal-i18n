@@ -30,13 +30,13 @@ export default async function Proyects({
 
   // Elementos <div> con fotos específicas para cada proyecto
   const proyecto1Techs = (
-    <div className='pt-4'>
+    <div className='pt-4 '>
       <ul className='grid grid-cols-3 gap-2  lg:grid-cols-3 xl:grid-cols-4'>
         <li className='flex w-full'>
           <Badge variant='default'>
             <div className='flex max-h-7 w-full items-center'>
               <Postgresql />
-              <p className='ml-1 text-white whitespace-nowrap sm:break-all'>Postgresql</p>
+              <p className='ml-1 text-white dark:text-black whitespace-nowrap sm:break-all'>Postgresql</p>
             </div>
           </Badge>
         </li>
@@ -44,7 +44,7 @@ export default async function Proyects({
           <Badge variant='default'>
             <div className='flex max-h-7 w-full items-center'>
               <Nextjs />
-              <p className='ml-1 text-white whitespace-nowrap sm:break-all'>Next.js</p>
+              <p className='ml-1 text-white dark:text-black whitespace-nowrap sm:break-all'>Next.js</p>
             </div>
           </Badge>
         </li>
@@ -52,7 +52,7 @@ export default async function Proyects({
           <Badge variant='default'>
             <div className='flex max-h-7 w-full items-center'>
               <Javascript />
-              <p className='ml-1 text-white whitespace-nowrap sm:break-all'>Javascript</p>
+              <p className='ml-1 text-white dark:text-black whitespace-nowrap sm:break-all'>Javascript</p>
             </div>
           </Badge>
         </li>
@@ -60,7 +60,7 @@ export default async function Proyects({
           <Badge variant='default'>
             <div className='flex max-h-7 w-full items-center'>
               <NextAuth />
-              <p className='ml-1 text-white whitespace-nowrap sm:break-all'>NextAuth</p>
+              <p className='ml-1 text-white dark:text-black whitespace-nowrap sm:break-all'>NextAuth</p>
             </div>
           </Badge>
         </li>
@@ -68,7 +68,7 @@ export default async function Proyects({
           <Badge variant='default'>
             <div className='flex max-h-7 w-full items-center'>
               <Prisma />
-              <p className='ml-1 text-white whitespace-nowrap sm:break-all'>Prisma</p>
+              <p className='ml-1 text-white dark:text-black whitespace-nowrap sm:break-all'>Prisma</p>
             </div>
           </Badge>
         </li>
@@ -76,7 +76,7 @@ export default async function Proyects({
           <Badge variant='default'>
             <div className='flex max-h-7 w-full items-center'>
               <Ethereum />
-              <p className='ml-1 text-white whitespace-nowrap sm:break-all'>Ethereum</p>
+              <p className='ml-1 text-white  dark:text-black whitespace-nowrap sm:break-all'>Ethereum</p>
             </div>
           </Badge>
         </li>
@@ -84,7 +84,7 @@ export default async function Proyects({
           <Badge variant='default'>
             <div className='flex max-h-7 w-full items-center'>
               <Tailwind />
-              <p className='ml-1 text-white whitespace-nowrap sm:break-all'>Tailwind</p>
+              <p className='ml-1 text-white dark:text-black whitespace-nowrap sm:break-all'>Tailwind</p>
             </div>
           </Badge>
         </li>
@@ -92,7 +92,7 @@ export default async function Proyects({
           <Badge variant='default'>
             <div className='flex max-h-7 w-full items-center'>
               <Pyth />
-              <p className='ml-1 text-white whitespace-nowrap sm:break-all'>Pyth</p>
+              <p className='ml-1 text-white dark:text-black whitespace-nowrap sm:break-all'>Pyth</p>
             </div>
           </Badge>
         </li>
@@ -100,7 +100,7 @@ export default async function Proyects({
           <Badge variant='default'>
             <div className='flex max-h-7 w-full items-center'>
               <Shadcn />
-              <p className='ml-1 text-white whitespace-nowrap sm:break-all'>Shadcn</p>
+              <p className='ml-1 text-white dark:text-black whitespace-nowrap sm:break-all'>Shadcn</p>
             </div>
           </Badge>
         </li>
@@ -115,7 +115,7 @@ export default async function Proyects({
       <Badge variant='default'>
         <div className='flex max-h-7 w-full items-center'>
           <Nextjs />
-          <p className='ml-1 text-white whitespace-nowrap sm:break-all'>Next.js</p>
+          <p className='ml-1 text-white dark:text-black whitespace-nowrap sm:break-all'>Next.js</p>
         </div>
       </Badge>
     </li>
@@ -123,7 +123,7 @@ export default async function Proyects({
       <Badge variant='default'>
         <div className='flex max-h-7 w-full items-center'>
           <Typescript />
-          <p className='ml-1 text-white whitespace-nowrap sm:break-all'>Typescript</p>
+          <p className='ml-1 text-white dark:text-black whitespace-nowrap sm:break-all'>Typescript</p>
         </div>
       </Badge>
     </li>
@@ -133,7 +133,7 @@ export default async function Proyects({
       <Badge variant='default'>
         <div className='flex max-h-7 w-full items-center'>
           <Tailwind />
-          <p className='ml-1 text-white whitespace-nowrap sm:break-all'>Tailwind</p>
+          <p className='ml-1 text-white dark:text-black whitespace-nowrap sm:break-all'>Tailwind</p>
         </div>
       </Badge>
     </li>
