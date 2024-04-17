@@ -5,7 +5,7 @@ import React from "react";
 import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
 
 
-export default function ThreeDCard({ titulo, desc, imageUrl, link}: { titulo: string; desc: string; imageUrl: string; link:string}) {
+export default function ThreeDCard({ titulo, desc, imageUrl, link, tecnologias}: { titulo: string; desc: string; imageUrl: string; link:string, tecnologias:React.ReactNode}) {
     
 
   return (
@@ -35,6 +35,9 @@ export default function ThreeDCard({ titulo, desc, imageUrl, link}: { titulo: st
             alt="thumbnail"
           />
           </a>
+          <div>
+            {tecnologias}
+          </div>
         </CardItem>
       </CardBody>
     </CardContainer>
