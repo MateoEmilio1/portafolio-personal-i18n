@@ -28,6 +28,8 @@
         "modal_rosario_1":"Charla con la comunidad de RosChain 'Bases de Solidity', donde vimos una introduccion a la sintaxis del lenguaje para despues deployar un smart contract en testnet!.",
         "modal_rosario_2":"Pero, ¿Que es Roschain? Es una comunidad en español que se dedica a la educación y adopción de usuarios en el ecosistema Web3 y cripto, bajo los valores de la descentralización.",
         "modal_rosario_3":"Para obtener más información sobre RosChain y cómo está organizado, haga clic en la imagen.",
+        "modal_colegioAbogados":"Workshop sobre como añadir capas de seguridad a nuestros dispositivos e introducción a Wallets (clasificación + Ejemplo práctico)",
+        "modal_colegioAbogados2":"[Diapositivas]",
         "button_close":"Cerrar",
         "articulos" : "Articulos",
         "art_desc" : " Todos los artículos técnicos en los cuales tuve el gusto de ser parte",
