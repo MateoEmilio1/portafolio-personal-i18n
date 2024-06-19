@@ -28,8 +28,8 @@
       "modal_rosario_1": "Sprechen Sie mit der RosChain-Community „Grundlagen von Solidity“, wo wir eine Einführung in die Syntax der Sprache sahen und dann einen Smart Contract auf Testnet bereitstellen!",
       "modal_rosario_2": "Aber was ist Roschain? Es handelt sich um eine Community auf Spanisch, die sich der Aufklärung und Einführung von Benutzern im Web3- und Krypto-Ökosystem unter den Werten der Dezentralisierung widmet.",
       "modal_rosario_3": "Um mehr über RosChain und seine Organisation zu erfahren, klicken Sie auf das Bild.",
-      "modal_colegioAbogados":"Workshop darüber, wie Sicherheitsschichten zu unseren Geräten hinzugefügt werden können, und Einführung in Wallets (Klassifizierung + Praktisches Beispiel)",
-      "modal_colegioAbogados2":"[Folien]",
+      "modal_colegioAbogados": "Workshop darüber, wie Sicherheitsschichten zu unseren Geräten hinzugefügt werden können, und Einführung in Wallets (Klassifizierung + Praktisches Beispiel)",
+      "modal_colegioAbogados2": "[Folien]",
       "button_close": "Schließen",
       "articulos": "Artikel",
       "art_desc": "Alle technischen Artikel, bei denen ich das Vergnügen hatte, dabei zu sein",
@@ -38,7 +38,9 @@
       "articulo_title_arbitrum": "Arbitrum-Knoten",
       "articulo_desc_arbitrum": "Anleitung zur Konfiguration eines Arbitrum Nitro-Knotens, zur Verwendung einer VM und von Docker mit ihren Konfigurationen und zur Interaktion damit.",
       "articulo_title_op": "Optimism-Knoten",
-      "articulo_desc_op": "Anleitung zur Konfiguration eines Optimism-Knotens unter Linux und zur Interaktion damit."
+      "articulo_desc_op": "Anleitung zur Konfiguration eines Optimism-Knotens unter Linux und zur Interaktion damit.",
+      "articulo_title_eth_clients": "Ethereum Clients",
+      "articulo_desc_eth_clients": "Eine detaillierte Anleitung zu Optionen und Funktionen verschiedener Ethereum-Client-Software"
     },
     "about": {
       "title": "Über uns",

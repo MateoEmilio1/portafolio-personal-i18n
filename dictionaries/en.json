@@ -31,14 +31,16 @@
       "articulos": "Articles",
       "art_desc": " All the technical and non-technical articles in which I had the pleasure of being part/author of them.",
       "modal_bitconf_1": "Workshop on how to configure an Ethereum Node using the DAppNode software, from how to boot the ISO on a pendrive to the connection via VPN, you can see it by clicking on the photo or",
-      "modal_colegioAbogados":"Workshop on how to add security layers to our devices and introduction to wallets (classification + practical example)",
-      "modal_colegioAbogados2":"[Slides]",
+      "modal_colegioAbogados": "Workshop on how to add security layers to our devices and introduction to wallets (classification + practical example)",
+      "modal_colegioAbogados2": "[Slides]",
       "articulo_title_ethereum": "Ethereum Node",
       "articulo_desc_ethereum": "Guide on how to configure an Ethereum node, from installation to synchronization using DappNode.",
       "articulo_title_arbitrum": "Arbitrum Node",
       "articulo_desc_arbitrum": "Guide on how to configure an Arbitrum Nitro node, using a VM and Docker with their configurations and how to interact with it.",
       "articulo_title_op": "Optimism Node",
-      "articulo_desc_op": "Guide on how to configure an Optimism node using Linux and how to interact with it."
+      "articulo_desc_op": "Guide on how to configure an Optimism node using Linux and how to interact with it.",
+      "articulo_title_eth_clients": "Ethereum Clients",
+      "articulo_desc_eth_clients": "A detailed guide on options and features of different Ethereum Client software"
     },
     "about": {
       "title": "About Us",
